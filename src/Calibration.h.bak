@@ -211,7 +211,7 @@ public:
 			PX4.print("PX4");
 #endif
 			double pointXCoord = ((PX1.x + PX2.x + PX3.x + PX4.x) / 4) + p1.x;
-			double pointYCoord = ((Px2.y + PX2.y + PX3.y + PX4.y) / 4) + p1.y;
+			double pointYCoord = ((Px2.y + PX2.y + PX3.y + PX4.y) / 4);
 	
 			return Point(0, 0);
 		}
